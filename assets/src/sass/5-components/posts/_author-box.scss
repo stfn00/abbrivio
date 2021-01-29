@@ -1,0 +1,81 @@
+/**
+ * ==========================================================================
+ * Post Author Box
+ *
+ * |_ ./main.scss
+ * ==========================================================================
+ */
+
+
+
+.author-box {
+	margin: 30px auto;
+    max-width: 350px;
+    
+    &__cover {
+        max-height: 170px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .card-body {
+        padding-bottom: 15px;
+
+        .fa-facebook {
+            color: #3a589b;
+        }
+
+        .fa-twitter {
+            color: #76a9ea;
+        }
+
+        .fa-google-plus {
+            color: #f34431;
+        }
+        
+        .fa-instagram {
+            color: #517fa6;
+        }
+
+        .fa-youtube {
+            color: #d22215;
+        }
+
+        .fa-dribbble {
+            color: #f1739f;
+        }
+    }
+
+    &__meta {
+        position: relative;
+        margin-bottom: 48px;
+
+        img {
+            border: 3px solid #fff;
+            border-radius: 4px;
+            position: absolute;
+            top: -41px;
+            width: 80px;
+        }
+    }
+
+    &__info {
+        position: absolute;
+        left: 93px;
+        top: -7px;
+
+        .card-title {
+            margin-bottom: 8px;
+        }
+
+        .card-subtitle {
+            font-weight: 300;
+        }
+    }
+
+    .card-text {
+        color: #666;
+    }
+}

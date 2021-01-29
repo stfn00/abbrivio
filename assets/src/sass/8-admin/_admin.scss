@@ -1,0 +1,94 @@
+/**
+ * ==========================================================================
+ * Admin style
+ * 
+ * Included in:
+ * |_ ./admin.scss
+ * ==========================================================================
+ */
+
+
+
+/**
+ * Footer text
+ * ==========================================================================
+ */
+
+/* stylelint-disable */
+#wpfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #footer-left,
+    .clear {
+        display: none;
+    }
+
+    .credits {
+        font-size: 0.9rem;
+        display: block;
+        text-align: right;
+        color: #212121;
+        margin: 0;
+
+        a {
+            padding-left: 30px;
+            background-position: left 3px;
+            background-repeat: no-repeat;
+            background-size: 15px;
+            color: #212121;
+            text-decoration: none;
+            text-transform: none;
+        }
+    }
+}
+
+
+
+/**
+ * Admin bar
+ * ==========================================================================
+ */
+
+#wpadminbar #wp-admin-bar-site-name > .ab-item::before {
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(0, 0, 0, 0);
+    margin-top: 4px;
+}
+#wpadminbar #wp-admin-bar-site-name.hover > .ab-item {
+    background-position: 0 0;
+}
+
+
+
+/**
+ * Welcome panel
+ * ==========================================================================
+ */
+
+.welcome-panel-close {
+    display: none !important;
+}
+
+.abbrivio-welcome-panel-content {
+    display: flex;
+    padding-bottom: 23px;
+
+    &__logo {
+        display: flex;
+
+        img {
+            max-height: 100px;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 23px;
+    }
+}
+/* stylelint-enable */

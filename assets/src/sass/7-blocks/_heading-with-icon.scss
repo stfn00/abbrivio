@@ -1,0 +1,22 @@
+/**
+ * ==========================================================================
+ * Gutenberg block: Heading with icon
+ * 
+ * Included in:
+ * |_ ./blocks.scss
+ * ==========================================================================
+ */
+
+
+
+/* stylelint-disable */
+.abbrivio-icon-heading {
+	display: flex;
+
+	.abbrivio-icon-heading__heading {
+		display: flex;
+		align-items: center;
+		margin-right: 16px;
+	}
+}
+/* stylelint-enable */

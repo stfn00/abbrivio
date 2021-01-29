@@ -1,0 +1,99 @@
+/**
+ * ==========================================================================
+ * Admin style
+ * 
+ * Included in:
+ * |_ ./admin.scss
+ * ==========================================================================
+ */
+
+
+
+.toplevel_page_abbrivio_theme_options {
+
+    #wpcontent {
+        padding: 0;
+    }
+
+    .wrap {
+        margin: 0;
+
+        > h1 {
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        form {
+            padding: 20px;
+
+            h2 {
+                padding: 20px;
+                margin-top: 3em;
+                // background-color: #dde1e2;
+                background-color: #23282d;
+                color: #fff;
+                text-transform: uppercase;
+
+                &:first-of-type {
+                    margin-top: 0;
+                }
+            }
+
+            .section-description {
+                padding: 10px 20px;
+                background-color: #fff;
+                color: #23282d;
+            }
+
+            .form-table {
+                margin: 0;
+                padding: 0 20px 0 20px;
+                background-color: #e8e8e8;
+                border-collapse: initial;
+            }
+
+            .submit {
+                // width: 100%;
+                // position: fixed;
+                // bottom: 0;
+                // margin: 0;
+                // padding: 15px 0;
+                // background-color: #f1f1f1;
+                // z-index: 999;
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+                margin: 0;
+                padding: 15px 0 15px 17px;
+                background-color: #353a40; // #2d333a
+                border-radius: 0;
+                z-index: 999;
+                transform: translateX(-20px);
+
+                .button {
+                    padding: 5px 15px;
+                    border: 2px solid #f1f1f1;
+                    border-radius: 0;
+                    background-color: #23282d;
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    color: #f1f1f1;
+                    transition: all .2s ease-in-out;
+
+                    &:hover {
+                        background-color: #f1f1f1;
+                        color: #23282d;
+                        transition: all .2s ease-in-out;
+                    }
+
+                    &:focus {
+                        background-color: #f1f1f1;
+                        color: #23282d;
+                        box-shadow: 0 0 0 1px #353a40, 0 0 0 3px #f1f1f1;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+/**
+ * ==========================================================================
+ * Base style
+ *
+ * |_ ./main.scss
+ * ==========================================================================
+ */
+
+
+
+body {
+	margin: 0;
+	@include font-family();
+	@include body-text( body );
+
+	background: $color__background-body;
+	color: $color__body-text;
+}
+
+
+.site-content {
+	padding-top: $header-mt-lg;
+
+	@include media-breakpoint-down(lg) {
+		padding-top: $header-mt-md;
+	}
+
+	@include media-breakpoint-down(md) {
+		padding-top: $header-mt-sm;
+	}
+}
+
+.clock {
+
+	#time-emoji {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+	}
+}

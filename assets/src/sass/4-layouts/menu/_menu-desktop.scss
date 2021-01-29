@@ -1,0 +1,32 @@
+/**
+ * ==========================================================================
+ * Menu desktop
+ *
+ * |_ ./main.scss
+ * ==========================================================================
+ */
+
+
+
+/* stylelint-disable */
+.navbar {
+
+    .navbar-brand {
+        display: block;
+        height: 80px;
+
+        @include media-breakpoint-down(lg) {
+            height: 60px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            height: 45px;
+        }
+
+        img {
+            display: block;
+            max-height: 100%;
+        }
+    }
+}
+/* stylelint-enable */

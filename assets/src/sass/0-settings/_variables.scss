@@ -1,0 +1,22 @@
+/**
+ * ==========================================================================
+ * Site variables
+ *
+ * |_ ./0-settings/_settings.scss
+ * ==========================================================================
+ */
+
+
+
+// mq Breakpoints
+$mq-breakpoints: (
+	small: 600px,
+	medium: 768px,
+	large: 1024px,
+	xlarge: 1240px
+) !default;
+
+// Header margins (values are height of header)
+$header-mt-lg: 96px;
+$header-mt-md: 76px;
+$header-mt-sm: 61px;
