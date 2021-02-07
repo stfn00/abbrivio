@@ -18,7 +18,7 @@
 		the_content(
 			sprintf(
 				wp_kses(
-					__('Continue reading %s <span class="meta-nav">&rarr;</span>', ABBRIVIO_THEME_SLUG),
+					__('Continue reading %s <span class="meta-nav">&rarr;</span>', 'abbrivio'),
 					[
 						'span' => [
 							'class' => []
@@ -31,7 +31,7 @@
 
 		wp_link_pages(
 			[
-				'before' => '<div class="page-links">' . esc_html__('Pages:', ABBRIVIO_THEME_SLUG),
+				'before' => '<div class="page-links">' . esc_html__('Pages:', 'abbrivio'),
 				'after'  => '</div>',
 			]
 		);

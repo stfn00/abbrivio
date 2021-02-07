@@ -47,8 +47,8 @@ class Block_Patterns
 			register_block_pattern(
 				'abbrivio/cover',
 				[
-					'title' => __('Abbrivio Cover', ABBRIVIO_THEME_SLUG),
-					'description' => __('Abbrivio Cover Block with image and text', ABBRIVIO_THEME_SLUG),
+					'title' => __('Abbrivio Cover', 'abbrivio'),
+					'description' => __('Abbrivio Cover Block with image and text', 'abbrivio'),
 					'categories' => ['cover'],
 					'content' => $cover_content,
 				]
@@ -62,8 +62,8 @@ class Block_Patterns
 			register_block_pattern(
 				'abbrivio/two-columns',
 				[
-					'title' => __('Abbrivio Two Column', ABBRIVIO_THEME_SLUG),
-					'description' => __('Abbrivio two columns with heading and text', ABBRIVIO_THEME_SLUG),
+					'title' => __('Abbrivio Two Column', 'abbrivio'),
+					'description' => __('Abbrivio two columns with heading and text', 'abbrivio'),
 					'categories' => ['columns'],
 					'content' => $two_columns_content,
 				]
@@ -97,8 +97,8 @@ class Block_Patterns
 	public function register_block_pattern_categories()
 	{
 		$pattern_categories = [
-			'cover' => __('Cover', ABBRIVIO_THEME_SLUG),
-			'columns' => __('Columns', ABBRIVIO_THEME_SLUG),
+			'cover' => __('Cover', 'abbrivio'),
+			'columns' => __('Columns', 'abbrivio'),
 		];
 
 		if (!empty($pattern_categories) && is_array($pattern_categories)) {

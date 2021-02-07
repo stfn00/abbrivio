@@ -35,12 +35,12 @@
 				<div class="col-12 col-md-10">
 					<?php
 					// Edit post link
-					edit_post_link( esc_html__('Edit', ABBRIVIO_THEME_SLUG), '<div class="edit-link">', '</div>' );
+					edit_post_link( esc_html__('Edit', 'abbrivio'), '<div class="edit-link">', '</div>' );
 					
 					// Navigation links
 					if ( !is_home() ) {
 						wp_link_pages( [
-							'before' => '<div class="page-links">' . esc_html__( 'Pages:', ABBRIVIO_THEME_SLUG),
+							'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'abbrivio'),
 							'after'  => '</div>',
 						]);
 					}

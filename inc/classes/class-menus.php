@@ -36,8 +36,8 @@ class Menus
 	public function register_menus()
 	{
 		register_nav_menus([
-			'abbrivio-header-menu' => esc_html__('Header Menu', ABBRIVIO_THEME_SLUG),
-			'abbrivio-footer-menu' => esc_html__('Footer Menu', ABBRIVIO_THEME_SLUG),
+			'abbrivio-header-menu' => esc_html__('Header Menu', 'abbrivio'),
+			'abbrivio-footer-menu' => esc_html__('Footer Menu', 'abbrivio'),
 		]);
 	}
 

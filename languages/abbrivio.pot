@@ -1,0 +1,340 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Abbrivio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-07 15:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: abbrivio"
+
+#: footer.php:15
+msgid "&copy;2021 Abbrivio - Advanced WordPress starter theme"
+msgstr ""
+
+#: 404.php:13
+msgid "404 - Not found"
+msgstr ""
+
+#. Name of the theme
+msgid "Abbrivio"
+msgstr ""
+
+#: inc/classes/class-blocks.php:48
+msgid "Abbrivio Blocks"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:50
+msgid "Abbrivio Cover"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:51
+msgid "Abbrivio Cover Block with image and text"
+msgstr ""
+
+#: inc/classes/class-options-page.php:29
+msgid "Abbrivio Theme Options"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:65
+msgid "Abbrivio Two Column"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:66
+msgid "Abbrivio two columns with heading and text"
+msgstr ""
+
+#: inc/classes/class-options-page.php:110
+msgid "Archive Tags"
+msgstr ""
+
+#: inc/classes/class-options-page.php:104
+msgid "Archives"
+msgstr ""
+
+#. Unique ID
+#: inc/classes/class-meta-boxes.php:53
+msgid "Author Box"
+msgstr ""
+
+#: inc/classes/class-clock-widget.php:29
+msgid "Clock Widget"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:101
+msgid "Columns"
+msgstr ""
+
+#: template-parts/components/blog/entry-content.php:21
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:100
+msgid "Cover"
+msgstr ""
+
+#: inc/classes/class-options-page.php:148
+msgid "Disable all Updates"
+msgstr ""
+
+#: inc/classes/class-options-page.php:84
+msgid "Disable automatic scroll restoration"
+msgstr ""
+
+#: inc/classes/class-options-page.php:201
+msgid "Disable PDF Previews"
+msgstr ""
+
+#: inc/classes/class-options-page.php:172
+msgid "Disable REST API"
+msgstr ""
+
+#: inc/classes/class-options-page.php:179
+msgid "Disable xmlrpc.php"
+msgstr ""
+
+#: template-parts/content-page.php:38
+msgid "Edit"
+msgstr ""
+
+#: inc/classes/class-options-page.php:79
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: inc/classes/class-menus.php:40
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/classes/class-options-page.php:138 inc/helpers/utility.php:34
+msgid "From this area you can manage the contents of the website."
+msgstr ""
+
+#: inc/classes/class-options-page.php:33
+msgid "General"
+msgstr ""
+
+#: inc/classes/class-options-page.php:74
+msgid "Google Analytics ID"
+msgstr ""
+
+#: inc/classes/class-menus.php:39
+msgid "Header Menu"
+msgstr ""
+
+#: template-parts/options-page/options-page.php:11
+msgid "Hi! I'm Abbrivio."
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://www.stfn-dev.com"
+msgstr ""
+
+#: 404.php:21
+msgid "It seems that we cannot find what you are looking for."
+msgstr ""
+
+#: template-parts/content-none.php:55
+msgid ""
+"It seems that we cannot find what you are looking for. Perhaps search can "
+"help"
+msgstr ""
+
+#: inc/classes/class-options-page.php:67
+msgid "Mobile status bar Style"
+msgstr ""
+
+#: inc/classes/class-clock-widget.php:83
+msgid "New title"
+msgstr ""
+
+#: home.php:15
+msgid "News"
+msgstr ""
+
+#: inc/classes/class-meta-boxes.php:89
+msgid "No"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-page.php:43
+#: template-parts/components/blog/entry-content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:17
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/helpers/template-tags.php:139
+#, php-format
+msgctxt "post author"
+msgid " by %s"
+msgstr ""
+
+#: inc/helpers/template-tags.php:124
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/classes/class-options-page.php:98
+msgid "Posts page"
+msgstr ""
+
+#: inc/classes/class-options-page.php:95
+msgid "Posts per page limit."
+msgstr ""
+
+#: inc/helpers/template-tags.php:184
+msgid "Read more"
+msgstr ""
+
+#: template-parts/content-none.php:33
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>"
+msgstr ""
+
+#: inc/classes/class-options-page.php:216
+msgid "Remove Admin bar"
+msgstr ""
+
+#: inc/classes/class-options-page.php:186
+msgid "Remove Dashboard Widgets"
+msgstr ""
+
+#: inc/classes/class-options-page.php:232
+msgid "Remove default Thumb sizes"
+msgstr ""
+
+#: inc/classes/class-options-page.php:164
+msgid "Remove Emoji support"
+msgstr ""
+
+#: inc/classes/class-options-page.php:209
+msgid "Remove Profile color scheme"
+msgstr ""
+
+#: inc/classes/class-options-page.php:193
+msgid "Remove Thumbnail sizes"
+msgstr ""
+
+#: inc/classes/class-options-page.php:156
+msgid "Remove trash actions in Head"
+msgstr ""
+
+#: inc/classes/class-options-page.php:224
+msgid "Restrict Media access"
+msgstr ""
+
+#: search.php:15
+msgid "Search for "
+msgstr ""
+
+#: inc/classes/class-options-page.php:116
+msgid "Search page"
+msgstr ""
+
+#: inc/classes/class-meta-boxes.php:84
+msgid "Select"
+msgstr ""
+
+#: inc/classes/class-meta-boxes.php:82
+msgid "Show Author Box in single page"
+msgstr ""
+
+#: inc/classes/class-sidebars.php:53
+msgid "Sidebar"
+msgstr ""
+
+#: inc/classes/class-options-page.php:60
+msgid "Site Favicon"
+msgstr ""
+
+#: inc/classes/class-options-page.php:37
+msgid "Site Logo"
+msgstr ""
+
+#: inc/classes/class-options-page.php:43
+msgid "Site Logo Dark"
+msgstr ""
+
+#: inc/classes/class-options-page.php:48
+msgid "Site Logo min"
+msgstr ""
+
+#: inc/classes/class-options-page.php:54
+msgid "Site Logo min Dark"
+msgstr ""
+
+#: template-parts/content-none.php:48
+msgid ""
+"Sorry but nothing matched your search item. Please try again with some "
+"different keywords"
+msgstr ""
+
+#. Author of the theme
+msgid "Stefano Iachetta"
+msgstr ""
+
+#: searchform.php:19
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/classes/class-options-page.php:27
+msgid "Theme Options"
+msgstr ""
+
+#: inc/classes/class-clock-widget.php:88
+msgid "Title:"
+msgstr ""
+
+#: template-parts/components/cards/card-post.php:34
+msgid "View More"
+msgstr ""
+
+#: inc/classes/class-options-page.php:136
+msgid "Welcome panel message"
+msgstr ""
+
+#: inc/classes/class-options-page.php:128
+msgid "Welcome panel status"
+msgstr ""
+
+#: inc/classes/class-options-page.php:138 inc/helpers/utility.php:34
+msgid "Welcome to Abbrivio!"
+msgstr ""
+
+#. Description of the theme
+msgid "WordPress advanced starter theme"
+msgstr ""
+
+#: inc/classes/class-options-page.php:125
+msgid "WP Admin Customization"
+msgstr ""
+
+#: inc/classes/class-options-page.php:145
+msgid "WP Clean"
+msgstr ""
+
+#: inc/classes/class-options-page.php:94
+msgid "WP Queries"
+msgstr ""
+
+#: inc/classes/class-meta-boxes.php:86
+msgid "Yes"
+msgstr ""

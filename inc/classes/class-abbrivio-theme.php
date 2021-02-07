@@ -60,6 +60,14 @@ class ABBRIVIO_THEME
 	public function setup_theme()
 	{
 		/**
+		 * Make theme available for translation.
+		 * Translations can be filed in the /languages/ directory.
+		 * If you're building a theme based on understrap, use a find and replace
+		 * to change 'understrap' to the name of your theme in all the template files
+		 */
+		load_theme_textdomain( 'abbrivio', ABBRIVIO_DIR_PATH . '/languages' );
+
+		/**
 		 * Let WordPress manage the document title.
 		 * By adding theme support, we declare that this theme does not use a
 		 * hard-coded <title> tag in the document head, and expect WordPress to

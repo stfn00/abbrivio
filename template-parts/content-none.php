@@ -13,7 +13,7 @@
 	<?php
 	// Page Heading
 	get_template_part( 'template-parts/components/page-headings/page-heading', 'base', [
-		'title' => __('Nothing Found', ABBRIVIO_THEME_SLUG)
+		'title' => __('Nothing Found', 'abbrivio')
 	]);
 	?>
 
@@ -30,7 +30,7 @@
 							<?php
 							printf(
 								wp_kses(
-									__('Ready to publish your first post? <a href="%s">Get started here</a>', ABBRIVIO_THEME_SLUG),
+									__('Ready to publish your first post? <a href="%s">Get started here</a>', 'abbrivio'),
 									[
 										'a' => [
 											'href' => []
@@ -45,14 +45,14 @@
 					// Search page
 					} elseif (is_search()) {
 						?>
-						<p><?php esc_html_e('Sorry but nothing matched your search item. Please try again with some different keywords', ABBRIVIO_THEME_SLUG); ?></p>
+						<p><?php esc_html_e('Sorry but nothing matched your search item. Please try again with some different keywords', 'abbrivio'); ?></p>
 						<?php
 						// Search form
 						get_search_form();
 					// Base
 					} else {
 						?>
-						<p><?php esc_html_e('It seems that we cannot find what you are looking for. Perhaps search can help', ABBRIVIO_THEME_SLUG); ?></p>
+						<p><?php esc_html_e('It seems that we cannot find what you are looking for. Perhaps search can help', 'abbrivio'); ?></p>
 						<?php
 						// Search form
 						get_search_form();

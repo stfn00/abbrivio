@@ -12,7 +12,7 @@ if (have_posts()) {
 
 	// Page Heading
 	get_template_part( 'template-parts/components/page-headings/page-heading', 'base', [
-		'title' => __('News', ABBRIVIO_THEME_SLUG),
+		'title' => __('News', 'abbrivio'),
     ]);
 
     ?>

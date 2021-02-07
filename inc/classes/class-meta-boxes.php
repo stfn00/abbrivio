@@ -50,7 +50,7 @@ class Meta_Boxes
 		foreach ($screens as $screen) {
 			add_meta_box(
 				'abbrivio-show-author-box', // Unique ID
-				__('Author Box', ABBRIVIO_THEME_SLUG), // Box title
+				__('Author Box', 'abbrivio'), // Box title
 				[$this, 'show_author_box_meta_box_html'], // Content callback, must be of type callable
 				$screen, // Post type
 				'side' // context
@@ -79,14 +79,14 @@ class Meta_Boxes
 		wp_nonce_field(plugin_basename(__FILE__), 'abbrivio_show_author_meta_box_nonce');
 
 		?>
-		<label for="abbrivio-field"><?php esc_html_e('Show Author Box in single page', ABBRIVIO_THEME_SLUG); ?></label>
+		<label for="abbrivio-field"><?php esc_html_e('Show Author Box in single page', 'abbrivio'); ?></label>
 		<select name="abbrivio_show_author_box_field" id="abbrivio-field" class="abbrivio-field">
-			<option value=""><?php esc_html_e('Select', ABBRIVIO_THEME_SLUG); ?></option>
+			<option value=""><?php esc_html_e('Select', 'abbrivio'); ?></option>
 			<option value="true" <?php selected($value, 'true'); ?>>
-				<?php esc_html_e('Yes', ABBRIVIO_THEME_SLUG); ?>
+				<?php esc_html_e('Yes', 'abbrivio'); ?>
 			</option>
 			<option value="false" <?php selected($value, 'false'); ?>>
-				<?php esc_html_e('No', ABBRIVIO_THEME_SLUG); ?>
+				<?php esc_html_e('No', 'abbrivio'); ?>
 			</option>
 		</select>
 		<?php

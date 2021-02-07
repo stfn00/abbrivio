@@ -45,7 +45,7 @@ class Blocks
 			[
 				[
 					'slug'  => 'abbrivio',
-					'title' => __('Abbrivio Blocks', ABBRIVIO_THEME_SLUG),
+					'title' => __('Abbrivio Blocks', 'abbrivio'),
 					'icon'  => 'table-row-after',
 				],
 			]

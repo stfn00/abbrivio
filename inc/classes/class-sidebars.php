@@ -50,7 +50,7 @@ class Sidebars
 	{
 		register_sidebar(
 			[
-				'name'          => esc_html__('Sidebar', ABBRIVIO_THEME_SLUG),
+				'name'          => esc_html__('Sidebar', 'abbrivio'),
 				'id'            => 'sidebar-1',
 				'description'   => '',
 				'before_widget' => '<div id="%1$s" class="widget widget-sidebar %2$s">',

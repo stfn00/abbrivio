@@ -8,4 +8,4 @@
 
 ?>
 
-<p class="section-description"><?php echo __("Hi! I'm Abbrivio.", ABBRIVIO_THEME_SLUG); ?></p>
+<p class="section-description"><?php echo __("Hi! I'm Abbrivio.", 'abbrivio'); ?></p>

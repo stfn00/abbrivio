@@ -31,7 +31,7 @@
             <?php the_title('<h3 class="card-title">', '</h3>'); ?>
             <?php abbrivio_the_excerpt(); ?>
             <a href="<?php echo esc_url(get_the_permalink()); ?>" class="btn btn-primary">
-                <?php esc_html_e('View More', ABBRIVIO_THEME_SLUG); ?>
+                <?php esc_html_e('View More', 'abbrivio'); ?>
             </a>
         </div>
     </div>

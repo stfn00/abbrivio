@@ -12,7 +12,7 @@ if (have_posts()) {
 
 	// Page Heading
 	get_template_part( 'template-parts/components/page-headings/page-heading', 'base', [
-		'title' => __('Search for ', ABBRIVIO_THEME_SLUG) . '<span>' . sanitize_text_field($_GET['s']) . '</span>',
+		'title' => __('Search for ', 'abbrivio') . '<span>' . sanitize_text_field($_GET['s']) . '</span>',
     ]);
 
     ?>

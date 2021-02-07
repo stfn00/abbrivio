@@ -121,7 +121,7 @@ function abbrivio_posted_on()
 	);
 
 	$posted_on = sprintf(
-		esc_html_x('Posted on %s', 'post date', ABBRIVIO_THEME_SLUG),
+		esc_html_x('Posted on %s', 'post date', 'abbrivio'),
 		'<a href="' . esc_url(get_permalink()) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
@@ -136,7 +136,7 @@ function abbrivio_posted_on()
 function abbrivio_posted_by()
 {
 	$byline = sprintf(
-		esc_html_x(' by %s', 'post author', ABBRIVIO_THEME_SLUG),
+		esc_html_x(' by %s', 'post author', 'abbrivio'),
 		'<span class="author vcard"><a href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '">' . esc_html(get_the_author()) . '</a></span>'
 	);
 
@@ -181,7 +181,7 @@ function abbrivio_excerpt_more($more = '')
 		$more = sprintf(
 			'<a class="abbrivio-read-more text-white" href="%1$s"><button class="mt-3 btn btn-info">%2$s</button></a>',
 			get_permalink(get_the_ID()),
-			__('Read more', ABBRIVIO_THEME_SLUG)
+			__('Read more', 'abbrivio')
 		);
 	}
 

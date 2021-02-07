@@ -26,7 +26,7 @@ class Clock_Widget extends WP_Widget
 		parent::__construct(
 			'clock_widget', // Base ID
 			'Clock', // Name
-			['description' => __('Clock Widget', ABBRIVIO_THEME_SLUG),] // Args
+			['description' => __('Clock Widget', 'abbrivio'),] // Args
 		);
 	}
 
@@ -80,12 +80,12 @@ class Clock_Widget extends WP_Widget
 		if (isset($instance['title'])) {
 			$title = $instance['title'];
 		} else {
-			$title = __('New title', ABBRIVIO_THEME_SLUG);
+			$title = __('New title', 'abbrivio');
 		}
 
 		?>
 		<p>
-			<label for="<?php echo $this->get_field_name('title'); ?>"><?php _e('Title:', ABBRIVIO_THEME_SLUG); ?></label>
+			<label for="<?php echo $this->get_field_name('title'); ?>"><?php _e('Title:', 'abbrivio'); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" />
 		</p>
 		<?php

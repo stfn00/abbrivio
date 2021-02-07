@@ -6,10 +6,6 @@
  * @package Abbrivio
  */
 
-if (!defined('ABBRIVIO_THEME_SLUG')) {
-	define('ABBRIVIO_THEME_SLUG', 'abbfghrivio');
-}
-
 if (!defined('ABBRIVIO_DIR_PATH')) {
 	define('ABBRIVIO_DIR_PATH', untrailingslashit(get_template_directory()));
 }

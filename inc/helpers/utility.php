@@ -31,7 +31,7 @@ function abbrivio_get_options()
         'abbrivio-posts-per-page-search' => 12,
         // WP Admin Customization
         'abbrivio-welcome-panel-status' => true,
-        'abbrivio-welcome-panel-message' => '<h2>' . __('Welcome to Abbrivio!', ABBRIVIO_THEME_SLUG) . '</h2><p class="about-description">' . __('From this area you can manage the contents of the website.', ABBRIVIO_THEME_SLUG) . '</p>',
+        'abbrivio-welcome-panel-message' => '<h2>' . __('Welcome to Abbrivio!', 'abbrivio') . '</h2><p class="about-description">' . __('From this area you can manage the contents of the website.', 'abbrivio') . '</p>',
         // WP Clean
         'abbrivio-disable-updates-non-admin' => true,
         'abbrivio-remove-head-trash-actions' => true,
