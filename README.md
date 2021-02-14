@@ -158,6 +158,17 @@ All notable changes to this project will be documented below.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2021-02-14
+
+### Added
+
+- Option for manage the Author meta box visibility
+
+### Changed
+
+- Minor style bug fix
+- Updated RationalOptionPages class
+
 ## [1.0.1] - 2021-02-07
 
 ### Added
