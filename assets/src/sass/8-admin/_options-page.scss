@@ -11,8 +11,13 @@
 
 .toplevel_page_abbrivio_theme_options {
 
-    .update-nag {
+    .notice {
         margin: 20px;
+        margin-bottom: 0;
+
+        &.update-nag {
+            margin-bottom: 20px;
+        }
     }
 
     #wpcontent {
@@ -33,7 +38,6 @@
             h2 {
                 padding: 20px;
                 margin-top: 3em;
-                // background-color: #dde1e2;
                 background-color: #23282d;
                 color: #fff;
                 text-transform: uppercase;
@@ -57,19 +61,12 @@
             }
 
             .submit {
-                // width: 100%;
-                // position: fixed;
-                // bottom: 0;
-                // margin: 0;
-                // padding: 15px 0;
-                // background-color: #f1f1f1;
-                // z-index: 999;
                 width: 100%;
                 position: fixed;
                 bottom: 0;
                 margin: 0;
                 padding: 15px 0 15px 17px;
-                background-color: #353a40; // #2d333a
+                background-color: #353a40;
                 border-radius: 0;
                 z-index: 999;
                 transform: translateX(-20px);
