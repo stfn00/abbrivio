@@ -24,6 +24,7 @@ function abbrivio_get_options()
         'abbrivio-google-analytics-script' => null,
         'abbrivio-facebook-pixel-script' => null,
         'abbrivio-disable-automatic-scroll-restoration' => null,
+        'abbrivio-show-author-meta-box-for' => array('post'),
         // WP Queries
         'abbrivio-posts-per-page-blog' => 12,
         'abbrivio-posts-per-page-archive' => 12,

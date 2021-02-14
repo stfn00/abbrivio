@@ -87,6 +87,19 @@ class Options_Page
                                 'id' => 'abbrivio-disable-automatic-scroll-restoration',
                                 'value' => 'true',
                             ),
+                            'abbrivio-show-author-meta-box-for' => array(
+                                'title' => __( 'Show Author Meta box for', 'abbrivio' ),
+                                'type' => 'select',
+                                'id' => 'abbrivio-show-author-meta-box-for',
+                                'value' => array(
+                                    'post'
+                                ),
+                                'choices' => $this->get_all_cpt(),
+                                'attributes' => array(
+                                    'multiple' => 'multiple'
+                                ),
+                                'sanitize' => true
+                            ),
                         )
                     ),
                     // WP Queries

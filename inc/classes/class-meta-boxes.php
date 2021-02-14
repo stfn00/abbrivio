@@ -33,8 +33,10 @@ class Meta_Boxes
 		/**
 		 * Actions
 		 */
-		add_action('add_meta_boxes', [$this, 'add_show_author_box_meta_box']);
-		add_action('save_post', [$this, 'save_show_author_box_meta_data']);
+		if ( !empty($this->theme_options['abbrivio-show-author-meta-box-for']) ) {
+			add_action('add_meta_boxes', [$this, 'add_show_author_box_meta_box']);
+			add_action('save_post', [$this, 'save_show_author_box_meta_data']);
+		}
 	}
 
 
@@ -46,7 +48,7 @@ class Meta_Boxes
 	 */
 	public function add_show_author_box_meta_box()
 	{
-		$screens = ['post'];
+		$screens = $this->theme_options['abbrivio-show-author-meta-box-for'];
 		foreach ($screens as $screen) {
 			add_meta_box(
 				'abbrivio-show-author-box', // Unique ID
